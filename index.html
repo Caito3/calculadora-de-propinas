@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+
+    <link rel="stylesheet" href="styles.css" type="text/css">
+    <meta charset="UTF-8">
+    <title>calculadora de propinas</title>
+    <script type="text/javascript" src="archivos.js"></script>
+    
+</head>
+
+<body>
+
+<section class="calculadora">
+
+<div class="botones">
+    <p class="validar" id="validar">Completar todos los campos</p>
+<div class="montos">
+    <p class="montoLetras">Monto:</p>
+    <input type="number" class="monto" placeholder="0" id="montoTotal" onblur="validar()">
+</div>
+<div class="personas"> 
+    <p class="validarPersonas" id="validarPersonas" >Completar todos los campos</p>
+    <p class="personasLetras">Personas:</p>
+    <input type="number" class="per" placeholder="0" id="personas" onblur="validarPersonas()"></div>
+</div>
+<div class="propinas">
+
+    <p class="propinasLetras">Seleccionar propina:</p>
+
+    <button id="uno" class="uno" onclick='hacer("uno"),darTotal()' value="5" >5%</button>
+    <button id="dos" class="dos" onclick='hacer("dos")' value ="10" >10%</button>
+    <button id="tres" class="tres" onclick='hacer("tres")' value="15" >15%</button> 
+    <button id="cuatro" class="cuatro" onclick='hacer("cuatro")' value="25" >25%</button>
+    <button id="cinco" class="cinco" onclick='hacer("cinco")' value="50" >50%</button>
+
+
+
+    <input type="number" class="otro" placeholder="OTRO" id="otro" oninput="otro()" >
+
+</div>
+
+<div class="totales">
+
+    <p class="totalPropinas" >Total de propina:</p>
+    <div class="totalTexto"id="totalTexto">0,00</div>
+    
+    <p class="totalPersonas">Monto por persona:</p>
+    <div class="totalPorPersona" id="totalGeneral">0,00</div>
+<button class="reset" id="boton" onclick="hac()">RESET</button>
+</div>
+</section>
+    
+</body>
+</html>
