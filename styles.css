@@ -175,8 +175,8 @@ cursor:pointer
     width:83%;
     background-color: white;
     margin-left:8%;
-    margin-top: 10vh;
     border-radius: 8px;
+    margin-top:8vh;
     font-family: 'garamond';
     font-size: 130%;
     font-weight: 800;
@@ -300,4 +300,66 @@ border: 3px solid #2A52A3
     color:#52D8E2;
     position:absolute;
     display:none
+}
+@media only screen and (max-width: 500px) {
+
+
+
+    .calculadora{
+        width:94%;
+        margin-left:3%;
+        height: 138vh
+    }
+    .totales{
+        width:90%;
+        margin-left:5%;
+        margin-top: 22vh
+    }
+    .montoLetras{
+        font-size:150%
+    }
+    .monto{
+        width:160%;
+    }
+    
+
+
+
+
+    .personasLetras{
+        font-size: 150%;
+    }
+    .per{
+        width:160%;
+    }
+    .propinasLetras{
+        font-size: 150%;
+    }
+    
+    
+    .propinas{
+        width:90%;
+        height:8vh;
+        margin-left: 3%;
+    }
+    .uno{
+        width:30%
+    }
+    .dos{
+        width:30%;
+        
+    }
+    .tres{
+        width:30%;
+    }
+    .cuatro{
+        width:30%
+    }
+    .cinco{
+        width:30%
+    }
+    .otro{
+        width:30%;
+        height: 7vh;
+    }
 }
