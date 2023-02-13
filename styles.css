@@ -241,7 +241,7 @@ width:22%
 .totalTexto{
     font-size: 50px;
     margin-left:60%;
-    margin-top: -8vh;
+    margin-top: -10vh;
     color:#2AECCB
 }
 .totalPorPersona{
@@ -301,6 +301,43 @@ border: 3px solid #2A52A3
     position:absolute;
     display:none
 }
+
+
+
+
+@media only screen and (max-width:1100px){
+
+.reset{
+    margin-top:3vh
+}
+.totalTexto{
+    margin-top: -12vh
+}
+.totalPorPersona{
+    margin-top: -13vh
+}
+}
+
+
+@media only screen and (max-width: 800px){
+    .totalPropinas{
+        font-size: 20px;
+    }
+    .totalPersonas{
+        font-size: 20px
+    }
+    .totalTexto{
+        font-size: 40px;
+    }
+    .totalPorPersona{
+        font-size: 40px;
+    }
+    .reset{
+        margin-top:13vh
+    }
+}
+
+
 @media only screen and (max-width: 500px) {
 
 
@@ -308,12 +345,13 @@ border: 3px solid #2A52A3
     .calculadora{
         width:94%;
         margin-left:3%;
-        height: 138vh
+        height: 150vh
     }
     .totales{
         width:90%;
         margin-left:5%;
-        margin-top: 22vh
+        margin-top: 22vh;
+        height: 70vh;
     }
     .montoLetras{
         font-size:150%
@@ -362,4 +400,5 @@ border: 3px solid #2A52A3
         width:30%;
         height: 7vh;
     }
+   
 }
