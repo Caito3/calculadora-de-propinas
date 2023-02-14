@@ -11,7 +11,7 @@ html{
     width: 60%;
     height: 70vh;
     margin-left: 22%;
-    margin-top: 8%;
+    margin-top: 3%;
     border-radius: 13px;
     position: relative;
 }
@@ -247,7 +247,7 @@ width:22%
 .totalPorPersona{
     font-size: 50px;
     margin-left: 61%;
-    margin-top:-8vh;
+    margin-top:-10vh;
     color:#2AECCB
 }
 .uno:hover{
@@ -305,6 +305,14 @@ border: 3px solid #2A52A3
 
 
 
+.calculadoraPropinas{
+    margin-top: 3vh;
+    margin-left: 38%;
+    color: #84868b;
+    font-size:40px;
+    font-family: 'garamond';
+    font-weight: 800;
+}
 @media only screen and (max-width:1100px){
 
 .reset{
@@ -315,6 +323,9 @@ border: 3px solid #2A52A3
 }
 .totalPorPersona{
     margin-top: -13vh
+}
+.calculadoraPropinas{
+    margin-left: 34%
 }
 }
 
@@ -334,6 +345,10 @@ border: 3px solid #2A52A3
     }
     .reset{
         margin-top:13vh
+    }
+    .calculadoraPropinas{
+        margin-left:30%;
+        font-size: 30px
     }
 }
 
@@ -400,5 +415,16 @@ border: 3px solid #2A52A3
         width:30%;
         height: 7vh;
     }
-   
+    .totalTexto{
+        margin-top:-10vh
+    }
+    .totalPorPersona{
+        margin-top:-10vh
+    }
+    .calculadoraPropinas{
+        margin-top:3vh;
+        margin-left:3%;
+        text-align:center;
+        font-size: 38px;
+    }
 }
