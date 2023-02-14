@@ -416,10 +416,11 @@ border: 3px solid #2A52A3
         height: 7vh;
     }
     .totalTexto{
-        margin-top:-10vh
+        margin-top:-8vh
     }
-    .totalPorPersona{
-        margin-top:-10vh
+    .totalPorPersona{        
+
+        margin-top:-8vh
     }
     .calculadoraPropinas{
         margin-top:3vh;
