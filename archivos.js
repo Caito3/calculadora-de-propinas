@@ -36,7 +36,7 @@ function otro(){
 }
 
 // Boton de reset  
-function hac(){
+function reset(){
     window.location.reload()
 }
 

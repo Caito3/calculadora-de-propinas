@@ -14,6 +14,7 @@ html{
     margin-top: 3%;
     border-radius: 13px;
     position: relative;
+    border-bottom: 4px solid rgb(148, 149, 156);
 }
 
 .botones{
@@ -21,6 +22,7 @@ html{
     width:50%;
     height:70vh;
     border-radius: 13px;
+    
 }
 
 
@@ -33,7 +35,8 @@ html{
     margin-left:50%;
     margin-top:-59vh;
     border-radius: 13px;
-    position:absolute
+    position:absolute;
+    border-bottom: 4px solid rgb(50, 50, 177);
 }
 .montos{
     
@@ -56,6 +59,7 @@ html{
     padding-top: 3px;
     border-radius: 13px;
     margin-top: 3vh;
+    
 }
 
 
@@ -77,6 +81,7 @@ border-radius: 8px;
 background-color: #ebecee;
 border:none;
 font-size: 22px;
+border-bottom: 3px solid rgb(157, 157, 160);
 
 }
 .per{
@@ -88,6 +93,7 @@ border-radius: 8px;
 background-color: #EAEBED;
 border:none;
 font-size: 22px;
+border-bottom: 3px solid rgb(157, 157, 160);
 
 
 }
@@ -98,23 +104,26 @@ font-size: 22px;
     margin-left:3%;
     border-radius: 13px;
     border:none;
-    background-color: #2A52A3;
+    background-color: #1348b1;
     font-size:22px;
-    font-family:'garamond';
+    font-weight: 800;
+    
     color:white;
     cursor:pointer;
-    
+    border-bottom: 3px solid rgb(38, 38, 180);
 }
 .dos{
     width: 30%;
     height: 7vh;
     border-radius: 13px;
     border:none;
-    background-color: #2A52A3;
+    background-color: #1348b1;
     font-size:22px;
-    font-family:'garamond';
+    font-weight: 800;
+    
     color:white;
-    cursor:pointer
+    cursor:pointer;
+    border-bottom: 3px solid rgb(38, 38, 180);
 
 }
 .tres{
@@ -123,11 +132,13 @@ font-size: 22px;
     height: 7vh;
     border-radius: 13px;
     border:none;
-    background-color: #2A52A3;
+    background-color: #1348b1;
     font-size:22px;
-    font-family:'garamond';
+    font-weight: 800;
+    
     color:white;
-    cursor:pointer
+    cursor:pointer;
+    border-bottom: 3px solid rgb(38, 38, 180);
 
 }
 .cuatro{
@@ -137,12 +148,14 @@ font-size: 22px;
     margin-left:3%;
     border-radius: 13px;
     border:none;
-    background-color: #2A52A3;
+    background-color: #1348b1;
     margin-top: 3%;
     font-size:22px;
-    font-family:'garanmond';
+    font-weight: 800;
+    
     color:white;
-    cursor:pointer
+    cursor:pointer;
+    border-bottom: 3px solid rgb(38, 38, 180);
 }
 .cinco{
     
@@ -150,24 +163,27 @@ font-size: 22px;
     height: 7vh;
     border-radius: 13px;
     border:none;
-    background-color: #2A52A3;
+    background-color: #1348b1;
     margin-top: 3%;
     font-size:22px;
-    font-family:'garamond';
+    font-weight: 800;
+    
     color:white;
-    cursor:pointer
+    cursor:pointer;
+    border-bottom: 3px solid rgb(38, 38, 180);
 }
 .otro{
-height:5vh;
-width:30%;
-border-radius: 8px;
-margin-top: 5%;
-font-size:22px;
-font-family:'garamond';
-background-color: #aeaeb4;
-border:none;
-color:gray;
-cursor:pointer
+    height:5vh;
+    width:30%;
+    border-radius: 8px;
+    margin-top: 5%;
+    font-size:22px;
+    font-family:'garamond';
+    background-color: #aeaeb4;
+    border:none;
+    color:gray;
+    cursor:pointer;
+    border-bottom: 3px solid rgb(80, 80, 85);
 
 }
 .reset{
@@ -181,9 +197,10 @@ cursor:pointer
     font-size: 130%;
     font-weight: 800;
     background-color: #2AECCB;
-    color:gray;
+    color:rgb(128, 128, 128);
     border:none;
-    cursor:pointer
+    cursor:pointer;
+    border-bottom: 3px solid rgb(73, 171, 182) ;
 }
 .montoLetras{
 margin-left: 13%;
@@ -192,7 +209,8 @@ font-size: 130%;
 font-weight: 800;
 color:#84868b;
 margin-top: 3vh;
-width:22%
+width:22%;
+text-shadow: 1px 0px 3px grey;
 
 }
 .propinasLetras{
@@ -201,6 +219,7 @@ width:22%
     font-size:130%;
     font-weight: 800;
     color:#84868b;
+    text-shadow: 1px 0px 3px grey;
 }
 .personasLetras{
     margin-left:13%;
@@ -208,25 +227,28 @@ width:22%
     font-size: 130%;
     font-weight: 800;
     color: #84868b;
-    margin-top: -1vh
+    margin-top: -1vh;
+    text-shadow: 1px 0px 3px grey;
 }
 .totalPropinas{
     margin-left:8%;
     margin-top:8vh;
     font-family: 'garamond';
-    font-size:22px;
+    font-size:140%;
     font-weight: 800;
     color:white;
-    width:50%
+    width:50%;
+    text-shadow: 1px 1px 4px white;
 }
 .totalPersonas{
     margin-left:8%;
     margin-top:10vh;
     font-family:'garamond';
-    font-size:22px;
+    font-size:140%;
     font-weight: 800;
     color:white;
-    width:55%
+    width:55%;
+    text-shadow: 1px 1px 4px white;
 }
 .otro::-webkit-input-placeholder{
     text-align: center;
@@ -239,30 +261,32 @@ width:22%
 }
 
 .totalTexto{
-    font-size: 50px;
+    font-size: 300%;
     margin-left:60%;
     margin-top: -10vh;
-    color:#2AECCB
+    color:#2AECCB;
+    font-weight: 800;
 }
 .totalPorPersona{
-    font-size: 50px;
+    font-size: 300%;
     margin-left: 61%;
     margin-top:-10vh;
-    color:#2AECCB
+    color:#2AECCB;
+    font-weight: 800;
 }
 .uno:hover{
-border:3px solid #2AECCB;
+box-shadow:0px 0px 3px 4px #2a6bec;
 
 }
 .dos:hover{
-border:3px solid #2AECCB;
+    box-shadow:0px 0px 3px 4px #2a6bec;
 
     }
 .tres:hover{
-border:3px solid #2AECCB;
+    box-shadow:0px 0px 3px 4px #2a6bec;
 }
 .cuatro:hover{
-border:3px solid #2AECCB;
+    box-shadow:0px 0px 3px 4px #2a6bec;
     }
 
 
@@ -270,18 +294,18 @@ border:3px solid #2AECCB;
 
 
 .cinco:hover{
-border:3px solid #2AECCB;
+    box-shadow:0px 0px 3px 4px #2a6bec;
 }
 .reset:hover{
-border: 3px solid #2A52A3
+    box-shadow:0px 0px 3px 4px #2AECCB;
 }
 .monto:focus{
     outline:none;
-    border: 1px solid #52D8E2
+    box-shadow: 0px 0px 3px 1px rgb(135, 135, 142);
 }
 .per:focus{
     outline:none;
-    border:1px solid #52D8E2
+    box-shadow: 0px 0px 3px 1px rgb(135, 135, 142);
 }
 .otro:focus{
     outline:none;
@@ -307,11 +331,12 @@ border: 3px solid #2A52A3
 
 .calculadoraPropinas{
     margin-top: 3vh;
-    margin-left: 38%;
+    margin-left: 34%;
     color: #84868b;
-    font-size:40px;
+    font-size:300%;
     font-family: 'garamond';
-    font-weight: 800;
+    font-weight: 900;
+    text-shadow: 1px 3px 3px rgb(143, 144, 149);
 }
 @media only screen and (max-width:1100px){
 
@@ -360,13 +385,14 @@ border: 3px solid #2A52A3
     .calculadora{
         width:94%;
         margin-left:3%;
-        height: 150vh
+        height: 120vh;
+        margin-top: -3vh;
     }
     .totales{
         width:90%;
         margin-left:5%;
-        margin-top: 22vh;
-        height: 70vh;
+        margin-top: 24vh;
+        height: 40vh;
     }
     .montoLetras{
         font-size:150%
@@ -389,7 +415,15 @@ border: 3px solid #2A52A3
         font-size: 150%;
     }
     
-    
+    .reset{
+        margin-top: 4vh;
+    }
+    .totalPropinas{
+        margin-top: 4vh;
+    }
+    .totalPersonas{
+        margin-top: 3vh;
+    }
     .propinas{
         width:90%;
         height:8vh;
@@ -416,11 +450,12 @@ border: 3px solid #2A52A3
         height: 7vh;
     }
     .totalTexto{
-        margin-top:-8vh
+        margin-top:-10vh;
+        margin-left: 69%;
     }
-    .totalPorPersona{        
-
-        margin-top:-8vh
+    .totalPorPersona{
+        margin-top:-10vh;
+        margin-left: 69%;
     }
     .calculadoraPropinas{
         margin-top:3vh;
@@ -428,4 +463,5 @@ border: 3px solid #2A52A3
         text-align:center;
         font-size: 38px;
     }
+    
 }
