@@ -320,7 +320,7 @@ box-shadow:0px 0px 3px 4px #2a6bec;
 }
 .validarPersonas{
     margin-left:20%;
-    padding-top: vh;
+    padding-top: 0vh;
     color:#52D8E2;
     position:absolute;
     display:none
@@ -385,14 +385,14 @@ box-shadow:0px 0px 3px 4px #2a6bec;
     .calculadora{
         width:94%;
         margin-left:3%;
-        height: 113vh;
+        height: 110vh;
         margin-top: -3vh;
     }
     .totales{
         width:90%;
         margin-left:5%;
         margin-top: 22vh;
-        height: 38vh;
+        height: 34vh;
     }
     .montoLetras{
         font-size:150%
@@ -409,13 +409,21 @@ box-shadow:0px 0px 3px 4px #2a6bec;
     .personasLetras{
         font-size: 150%;
     }
+    .validar{
+        margin-left: 34%;
+        padding-top: 3vh;
+    }
+    .validarPersonas{
+        margin-left: 40%;
+        margin-top: 0vh;
+    }
     .per{
         width:160%;
         margin-top: -3vh;
     }
     .propinasLetras{
         font-size: 150%;
-        margin-top: -2vh
+        margin-top: 3vh
     }
     
     .reset{
