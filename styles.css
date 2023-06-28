@@ -385,20 +385,21 @@ box-shadow:0px 0px 3px 4px #2a6bec;
     .calculadora{
         width:94%;
         margin-left:3%;
-        height: 120vh;
+        height: 113vh;
         margin-top: -3vh;
     }
     .totales{
         width:90%;
         margin-left:5%;
-        margin-top: 24vh;
-        height: 40vh;
+        margin-top: 22vh;
+        height: 38vh;
     }
     .montoLetras{
         font-size:150%
     }
     .monto{
         width:160%;
+        margin-top: -3vh;
     }
     
 
@@ -410,9 +411,11 @@ box-shadow:0px 0px 3px 4px #2a6bec;
     }
     .per{
         width:160%;
+        margin-top: -3vh;
     }
     .propinasLetras{
         font-size: 150%;
+        margin-top: -2vh
     }
     
     .reset{
@@ -420,9 +423,11 @@ box-shadow:0px 0px 3px 4px #2a6bec;
     }
     .totalPropinas{
         margin-top: 4vh;
+        margin-left: 3%;
     }
     .totalPersonas{
         margin-top: 3vh;
+        margin-left: 3%;
     }
     .propinas{
         width:90%;
@@ -451,11 +456,11 @@ box-shadow:0px 0px 3px 4px #2a6bec;
     }
     .totalTexto{
         margin-top:-10vh;
-        margin-left: 69%;
+        margin-left: 64%;
     }
     .totalPorPersona{
         margin-top:-10vh;
-        margin-left: 69%;
+        margin-left: 64%;
     }
     .calculadoraPropinas{
         margin-top:3vh;
